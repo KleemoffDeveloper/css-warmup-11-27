@@ -1,6 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Mukta&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Mukta&display=swap");
 /* Fonts: */
 /*
 font-family: 'Bree Serif', serif;
 font-family: 'Mukta', sans-serif;
 */
+
+body {
+  background-color: rgb(2, 25, 34);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.x-icon {
+  width: 32px;
+}
+
+.about-me-container {
+  max-width: 640px;
+  min-height: 320px;
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.title-text {
+  font-size: 36px;
+  font-family: "Bree Serif", serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.content-text {
+  font-family: "Mukta", sans-serif;
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  place-items: center;
+  margin: 16px;
+}
+
+.photographer-image {
+  width: 100%;
+}
